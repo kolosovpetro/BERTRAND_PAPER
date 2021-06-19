@@ -1,0 +1,113 @@
+\documentclass[12pt,letterpaper,oneside,reqno]{amsart}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[left=1in,right=1in,bottom=1in,top=1in]{geometry}
+\usepackage[pdfpagelabels,hyperindex,colorlinks=true,linkcolor=blue,urlcolor=magenta,citecolor=green]{hyperref}
+
+\newcommand \coeffA [3][A] {{\mathbf{#1}} \sb{#2,#3}}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}{Lemma}[section]
+\newtheorem{conj}[thm]{Conjecture}
+
+%--------Meta Data: Fill in your info------
+\title[Goldbach's conjecture via Bertrand's Postulate]{Goldbach's conjecture via Bertrand's Postulate}
+\author[Petro Kolosov]{Petro Kolosov}
+\email{kolosovp94@gmail.com}
+\keywords{Polynomials, Polynomial identities}
+\urladdr{https://kolosovpetro.github.io}
+\subjclass[2010]{44A35, 11C08}
+\date{\today}
+\hypersetup{
+    pdftitle={Goldbach's conjecture via Bertrand's Postulate},
+    pdfsubject={Discrete Mathematics, Number Theory, Combinatorics},
+    pdfauthor={Petro Kolosov},
+    pdfkeywords={}
+}
+\begin{document}
+    \begin{abstract}
+        In this manuscript the relations between Bertrand's postulate and both ternary and binary Goldbach's conjectures
+        are discussed.
+        As a result, a three Goldbach-like conjectures are proposed and discussed.
+        Verification programs are attached to the last section.
+    \end{abstract}
+    \maketitle
+
+
+    \section{Introduction} \label{sec:introduction}
+    In number theory, Bertrand's postulate is a statement that was first conjured in 1845 by Joseph Bertrand (ref).
+    Bertrand's postulate may be expressed as follows
+    \begin{thm}
+        \label{bertrand_theorem} (Bertrand–Chebyshev theorem.)
+        For every positive integer $n>1$ exists at least one prime $p$ such that
+        \[
+            n < p < 2n
+        \]
+    \end{thm}
+    Bertrand's postulate completely proved by Chebyshev in 1852 (ref).
+    From Bertrand's postulate immediately follows
+    \begin{lem}
+        \label{bertrands_partition_lemma} (Even Bertrand's partition.)
+        By Bertrand's postulate, for every positive integer $n>1$ there is at least one partition such that
+        \[
+            2n = p + \verb!odd!,
+        \]
+        where \verb!odd! is odd part of Even Bertrand's partition.
+    \end{lem}
+    Now we have to recall ternary Goldbach's conjecture or namely Goldbach's weak conjecture
+    \begin{conj}
+        \label{ternary_goldbach_conjecture} (Ternary Goldbach's conjecture.)
+        Every odd number greater than 7 can be expressed as the sum of three odd primes.
+        \[
+            2n+1 = \mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k, \quad n > 2
+        \]
+    \end{conj}
+    Ternary Goldbach's conjecture was proved by H.A Helfgott in 2013, (ref).
+    From this prospective, we are able to express the lemma~\ref{bertrands_partition_lemma} for positive odd numbers,
+    \begin{lem}(Odd Bertrand's partition.)
+        \label{bertrands_odd_partition_lemma}
+        By Bertrand's postulate, for every positive integer $n>1$ there is at least one partition such that
+        \[
+            2n + 1 = p + \verb!odd! + 1 = p + \verb!even!,
+        \]
+        where \verb!even! is even part of Odd Bertrand's partition.
+    \end{lem}
+    Then we have the following relation between lemma~\ref{bertrands_odd_partition_lemma} and
+    Ternary Goldbach's conjecture~\ref{ternary_goldbach_conjecture} for every positive integer $n>2$
+    \begin{equation}
+        2n + 1 = p + \verb!odd! + 1 = \mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k
+        \label{eq:goldbach_and_bertrand_relation}
+    \end{equation}
+    From equation~\eqref{eq:goldbach_and_bertrand_relation} implies the Goldbach-like conjectures
+    \begin{conj}
+        For every positive integer $n>2$ and prime $n < p< 2n, \; p<2n-1$
+        exists ternary Goldbach's partition such that
+        \[
+            2n+1 = \mathfrak{p}_i +  \mathfrak{p}_j + p
+        \]
+    \end{conj}
+    \begin{conj}
+        For every odd Bertrand's partition~\ref{bertrands_odd_partition_lemma}, the prime $p$ such that $n < p <2n, \; p < 2n-1, n > 2$ is always a member of
+        ternary Goldbach partition $2n+1 =\mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k$
+        \[
+            \bigvee_{t \in \{i, j, k\}} \mathfrak{p}_t = p
+        \]
+    \end{conj}
+    \begin{conj}
+        The even part of odd Bertrand's partition~\ref{bertrands_odd_partition_lemma}
+        is always sum of two primes
+        \[
+            2n + 1 = p + \verb!even!, \quad \verb!even! = \mathfrak{p}_j + \mathfrak{p}_k, \; n > 2
+        \]
+    \end{conj}
+
+
+    \section{Discussion}\label{sec:discussion}
+    \section{Verification}\label{sec:verification}
+    \bibliographystyle{unsrt}
+    \bibliography{bertrand_refs}
+\end{document}
