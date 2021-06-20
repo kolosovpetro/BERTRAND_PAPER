@@ -12,8 +12,24 @@ Tchebichef.
 \newblock {\em Journal de Mathématiques Pures et Appliquées}, pages 366--390,
   1852.
 
+\bibitem{helfgott2013minor}
+H.~A. Helfgott.
+\newblock Minor arcs for goldbach's problem, 2013.
+\newblock \url {https://arxiv.org/abs/1305.2897}.
+
 \bibitem{helfgott2014ternary}
 H.~A. Helfgott.
 \newblock The ternary goldbach conjecture is true, 2014.
+\newblock \url {https://arxiv.org/abs/1312.7748}.
+
+\bibitem{helfgott2015ternary}
+Harald~Andres Helfgott.
+\newblock The ternary goldbach problem, 2015.
+\newblock \url {https://arxiv.org/abs/1501.05438}.
+
+\bibitem{kolosov2021github}
+Petro Kolosov.
+\newblock Supplementary programs, 2021.
+\newblock \url {https://github.com/kolosovpetro/GoldbachConjecture}.
 
 \end{thebibliography}

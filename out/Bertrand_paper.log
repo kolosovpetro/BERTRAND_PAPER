@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.24)  20 JUN 2021 03:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.24)  20 JUN 2021 14:04
 entering extended mode
 **./Bertrand_paper.tex
 (Bertrand_paper.tex
@@ -452,7 +452,13 @@ Bertrand_paper.out)
 \@outlinefile=\write3
 \openout3 = `Bertrand_paper.out'.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 66.
+
+(C:/Users\pkolosov\OneDrive - Open Sky Data Systems\Desktop\Goldbach\Paper\out\
+Bertrand_paper.toc)
+\tf@toc=\write4
+\openout4 = `Bertrand_paper.toc'.
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 68.
 
 
 (C:\Users\pkolosov\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
@@ -460,18 +466,24 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 [1{C:/Users/pkolosov/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (C:/Users\pkolosov\OneDrive - Open Sky Data Systems\Desktop\Goldbach\Paper\out\
-Bertrand_paper.bbl) [2]
+Bertrand_paper.bbl [2]
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+[]\OT1/cmr/m/n/10 Petro Kolosov. Sup-ple-men-tary pro-grams, 2021. [][]$\OT1/cm
+tt/m/n/10 https : / / github . com / kolosovpetro /
+ []
+
+) [3]
 (C:/Users\pkolosov\OneDrive - Open Sky Data Systems\Desktop\Goldbach\Paper\out\
 Bertrand_paper.aux)
 Package rerunfilecheck Info: File `Bertrand_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 8EE8B732F7992BED77F31380F6A1D052;447.
+(rerunfilecheck)             Checksum: EA328FD8766C9F38D1019E82B54102C5;447.
  ) 
 Here is how much of TeX's memory you used:
- 10857 strings out of 479324
- 164158 string characters out of 2855390
- 460676 words of memory out of 3000000
- 28013 multiletter control sequences out of 15000+600000
- 412720 words of font info for 64 fonts, out of 8000000 for 9000
+ 10874 strings out of 479324
+ 164560 string characters out of 2855390
+ 463121 words of memory out of 3000000
+ 28021 multiletter control sequences out of 15000+600000
+ 413428 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  82i,6n,88p,338b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
@@ -483,19 +495,20 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/pkoloso
 v/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
 ers/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
 .pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/pkolosov/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/pkolosov/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/pkoloso
-v/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
-sers/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
-12.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/euler/eufm10.pfb>
+ts/cm/cmr8.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pkolosov/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/pkolosov/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/pkolosov/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Use
+rs/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb><C:/Users/pkolosov/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/euler/eufm10.pfb>
 Output written on "C:/Users\pkolosov\OneDrive - Open Sky Data Systems\Desktop\G
-oldbach\Paper\out\Bertrand_paper.pdf" (2 pages, 181350 bytes).
+oldbach\Paper\out\Bertrand_paper.pdf" (3 pages, 208414 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
