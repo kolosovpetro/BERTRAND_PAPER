@@ -18,9 +18,9 @@
 \title[Goldbach's conjecture via Bertrand's Postulate]{Goldbach's conjecture via Bertrand's Postulate}
 \author[Petro Kolosov]{Petro Kolosov}
 \email{kolosovp94@gmail.com}
-\keywords{Polynomials, Polynomial identities}
+\keywords{Bertrand's Postulate, Goldbach Conjecture, Ternary Goldbach Conjecture}
 \urladdr{https://kolosovpetro.github.io}
-\subjclass[2010]{44A35, 11C08}
+\subjclass[2010]{11P32, 11A41, 97F60}
 \date{\today}
 \hypersetup{
     pdftitle={Goldbach's conjecture via Bertrand's Postulate},
@@ -39,8 +39,8 @@
 
 
     \section{Introduction} \label{sec:introduction}
-    In number theory, Bertrand's postulate is a statement that was first conjured in 1845 by Joseph Bertrand (ref).
-    Bertrand's postulate may be expressed as follows
+    In number theory, Bertrand's postulate is a statement that was first conjured in 1845 by
+    Joseph Bertrand~\cite{bertrand1845}.
     \begin{thm}
         \label{bertrand_theorem} (Bertrand–Chebyshev theorem.)
         For every positive integer $n>1$ exists at least one prime $p$ such that
@@ -48,7 +48,7 @@
             n < p < 2n
         \]
     \end{thm}
-    Bertrand's postulate completely proved by Chebyshev in 1852 (ref).
+    Bertrand's postulate completely proved by Chebyshev in 1852~\cite{Tchebichef1852}.
     From Bertrand's postulate immediately follows
     \begin{lem}
         \label{bertrands_partition_lemma} (Even Bertrand's partition.)
@@ -63,10 +63,11 @@
         \label{ternary_goldbach_conjecture} (Ternary Goldbach's conjecture.)
         Every odd number greater than 7 can be expressed as the sum of three odd primes.
         \[
-            2n+1 = \mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k, \quad n > 2
+            2n+1 = \mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k, \quad n > 2,
         \]
+        where $\mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k$ is ternary Goldbach partition.
     \end{conj}
-    Ternary Goldbach's conjecture was proved by H.A Helfgott in 2013, (ref).
+    Ternary Goldbach's conjecture was proved by H.A Helfgott in 2013~\cite{helfgott2014ternary}.
     From this prospective, we are able to express the lemma~\ref{bertrands_partition_lemma} for positive odd numbers,
     \begin{lem}(Odd Bertrand's partition.)
         \label{bertrands_odd_partition_lemma}
@@ -91,8 +92,9 @@
         \]
     \end{conj}
     \begin{conj}
-        For every odd Bertrand's partition~\ref{bertrands_odd_partition_lemma}, the prime $p$ such that $n < p <2n, \; p < 2n-1, n > 2$ is always a member of
-        ternary Goldbach partition $2n+1 =\mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k$
+        For every positive odd $2n+1, \; n>2$ Bertrand's partition~\ref{bertrands_odd_partition_lemma},
+        the prime $p < 2n-1$ is always a member of ternary Goldbach partition
+        $2n+1 =\mathfrak{p}_i +  \mathfrak{p}_j + \mathfrak{p}_k$
         \[
             \bigvee_{t \in \{i, j, k\}} \mathfrak{p}_t = p
         \]
